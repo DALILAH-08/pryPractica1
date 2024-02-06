@@ -1,0 +1,20 @@
+{
+  "name": "prypractica1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DALILAH-08/pryPractica1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DALILAH-08/pryPractica1/issues"
+  },
+  "homepage": "https://github.com/DALILAH-08/pryPractica1#readme",
+  "description": ""
+}
