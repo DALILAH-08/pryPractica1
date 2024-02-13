@@ -1,0 +1,81 @@
+/**
+ * 
+ * // metodo led 
+
+let signo_zodiacal ="capricornio";
+let MesDeNacimiento = "Enero";
+
+console.log (signo_zodiacal);
+console.log (MesDeNacimiento);
+
+
+
+//scode de var, tiene un alcance global 
+function varTest (){
+    var x=31;
+    if (true){
+        var x=56;
+        console.log (x);
+    }
+    console.log (x);
+} 
+varTest();
+//por el ambito que utiliza var tomara el valor de la ultima variable, porque global, ambito de funcion pero no de bloque 
+
+
+
+function ejemploAmbitoVar() {
+    if (true){
+        let x = 23 ;
+    }
+    console.log(x);
+    
+}
+ejemploAmbitoVar ();
+
+
+
+
+
+const  v = 6 ;
+
+
+function constEjemplo () {
+    const v = 5 ;
+    if (true){
+        const v=70;
+        console.log(v);
+    }
+    console.log(v);
+    
+}
+console.log(v);
+
+constEjemplo();
+
+
+
+
+let admin;
+let nameUser; 
+
+nameUser= "Jhon";
+admin= nameUser;
+
+console.log (admin)
+
+
+
+ * 
+ */
+
+let nombre=prompt ('introduce tu nombre ');
+console.log ('tu nombre es:', nombre);
+
+
+
+
+
+
+
+
